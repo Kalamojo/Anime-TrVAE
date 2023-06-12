@@ -1,0 +1,5 @@
+streamlit==1.22.0
+tensorflow==2.10.1
+anndata==0.9.1
+opencv-python==4.7.0.72
+mtcnn==0.1.1

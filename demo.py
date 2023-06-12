@@ -10,7 +10,6 @@ from keras import backend as K
 import cv2
 import os
 from mtcnn import MTCNN
-import gdown
 
 def remove_sparsity(adata):
     if sparse.issparse(adata.X):
@@ -130,15 +129,10 @@ label_map = {"real": 'r', "anime": 'a'}
 
 @st.cache_resource
 def load_model1():
-    # Doanload pretrained model
-    #url = 'https://drive.google.com/uc?id=1nVvW4f77yomKqOV0-Hf6QUc_xZb6CssR'
-    #output = './anime_cartoon1b-a/mmd_cvae.h5'
-    #gdown.download(url, output, quiet=False)
-
     # Load the model
     network = DCtrVAE(x_dimension=input_shape,
                                       n_conditions=len(conditions),
-                                      model_path=f"./anime_cartoon1b-a")
+                                      model_path="./")
     network.restore_model()
     print("Model 1 Restored")
     return network
