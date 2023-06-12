@@ -39,22 +39,22 @@ The Transfer Variational Autoencoder takes advantage of this feature of encoded 
 2. Encoded data is manipulated
 3. Data is decoded
 
-![alt text](https://github.com/Kalamojo/Anime-TrVAE/blob/main/images/diagram.png?raw=true)
+![Transfer Variational Autoencoder Diagram](https://github.com/Kalamojo/Anime-TrVAE/blob/main/images/diagram.png?raw=true)
 :---------------------------:
 trVAE architecture diagram
 
 As the diagram depicts, the exact method of manipulating encoded data is with a labelling system. Encoded data is concatenated with an initial label, and encoded data is combined with a second label. The encoder portion of the model effectively learns that data will always be “supplied” a label later on, so with this system, it learns to strip its data of its label class. And once data has been stripped of its class, it is primed and ready to be supplied any second label, effectively transferring data from one class to any other.
 
-![alt text](https://github.com/Kalamojo/Anime-TrVAE/blob/main/images/transfer_learning_visialization.png?raw=true)
+![Summarization of how the trVAE trains](https://github.com/Kalamojo/Anime-TrVAE/blob/main/images/transfer_learning_visialization.png?raw=true)
 
 ## Results
 
 Original         |  Transferred
 :---------------------------:|:---------------------------:
-![alt text](https://github.com/Kalamojo/Anime-TrVAE/blob/main/images/female_real_org.jpg?raw=true) | ![alt text](https://github.com/Kalamojo/Anime-TrVAE/blob/main/images/female_anime_transfer.jpg?raw=true)
-![alt text](https://github.com/Kalamojo/Anime-TrVAE/blob/main/images/male_real_org.png?raw=true) | ![alt text](https://github.com/Kalamojo/Anime-TrVAE/blob/main/images/male_anime_transfer.jpg?raw=true)
-![alt text](https://github.com/Kalamojo/Anime-TrVAE/blob/main/images/female_anime_org.jpg?raw=true) | ![alt text](https://github.com/Kalamojo/Anime-TrVAE/blob/main/images/female_real_transfer.jpg?raw=true)
-![alt text](https://github.com/Kalamojo/Anime-TrVAE/blob/main/images/male_anime_org.jpg?raw=true) | ![alt text](https://github.com/Kalamojo/Anime-TrVAE/blob/main/images/male_real_transfer.jpg?raw=true)
+![Portraite image of Billie Eilish](https://github.com/Kalamojo/Anime-TrVAE/blob/main/images/female_real_org.jpg?raw=true) | ![Transferred anime version of Billie Eilish](https://github.com/Kalamojo/Anime-TrVAE/blob/main/images/female_anime_transfer.jpg?raw=true)
+![Portrait image of Tom Cruise](https://github.com/Kalamojo/Anime-TrVAE/blob/main/images/male_real_org.png?raw=true) | ![Transferred anime version of Tom Cruise](https://github.com/Kalamojo/Anime-TrVAE/blob/main/images/male_anime_transfer.jpg?raw=true)
+![Portrait image of Hinata Hyuga from Naruto](https://github.com/Kalamojo/Anime-TrVAE/blob/main/images/female_anime_org.jpg?raw=true) | ![Transferred realistic version of Hinata](https://github.com/Kalamojo/Anime-TrVAE/blob/main/images/female_real_transfer.jpg?raw=true)
+![Portrait image of Shikamaru Nara from Naruto](https://github.com/Kalamojo/Anime-TrVAE/blob/main/images/male_anime_org.png?raw=true) | ![Transferred realistic version of Shikamaru](https://github.com/Kalamojo/Anime-TrVAE/blob/main/images/male_real_transfer.jpg?raw=true)
 
 ## Areas of Improvement
 
