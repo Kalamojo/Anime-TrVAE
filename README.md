@@ -2,9 +2,13 @@
 
 Image Transferring by way of a Variational Autoencoder
 
-## Model Demo
+## Demo
 
-Here is the link to the tensorflow model: https://drive.google.com/file/d/1RXZmK8eS1m2d3ZEje0e2me5uYccirFuf/view?usp=sharing
+The demo can be found on HuggingFace [here](https://huggingface.co/spaces/Kalamojo/ATVA)
+
+## Model Download
+
+Here is the link to the tensorflow model: [https://drive.google.com/file/d/1RXZmK8eS1m2d3ZEje0e2me5uYccirFuf/view?usp=sharing](https://drive.google.com/file/d/1RXZmK8eS1m2d3ZEje0e2me5uYccirFuf/view?usp=sharing)
 
 To run an image transferring demo, download the model and add it to your local repository. Then, simply install the requirements:
 
@@ -65,8 +69,8 @@ Original         |  Transferred
 
 ## Acknowledgments
 
-- Lotfollahi, M., Naghipourfar, M., Theis, F. J., & Wolf, F. A. (2020). Conditional out-of-distribution generation for unpaired data using transfer VAE. Bioinformatics (Oxford, England), 36(Suppl_2), i610–i617. https://doi.org/10.1093/bioinformatics/btaa800
-- Liu et al (2015). Deep Learning Face Attributes in the Wild https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
-- Hugging Face Anime Face Dataset https://huggingface.co/datasets/DrishtiSharma/Anime-Face-Dataset
-- Google Cartoonset https://google.github.io/cartoonset/
+- Lotfollahi, M., Naghipourfar, M., Theis, F. J., & Wolf, F. A. (2020). Conditional out-of-distribution generation for unpaired data using transfer VAE. Bioinformatics (Oxford, England), 36(Suppl_2), i610–i617. [https://doi.org/10.1093/bioinformatics/btaa800](https://doi.org/10.1093/bioinformatics/btaa800)
+- Liu et al (2015). Deep Learning Face Attributes in the Wild [https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
+- Hugging Face Anime Face Dataset [https://huggingface.co/datasets/DrishtiSharma/Anime-Face-Dataset](https://huggingface.co/datasets/DrishtiSharma/Anime-Face-Dataset)
+- Google Cartoonset [https://google.github.io/cartoonset/](https://google.github.io/cartoonset/)
 - UTRGV Deep Learning professor Dr. Kim’s GPU Clusters
